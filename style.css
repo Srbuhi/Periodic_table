@@ -9,13 +9,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.table-list {
+.tables-list {
     display: flex;
     margin-left: 15px;
     margin-top: 15px;
 }
 
-.table-list-item {
+.tables-list-item {
     list-style-type: none;
     cursor: pointer;
     margin-right: 10px;
