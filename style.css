@@ -21,6 +21,19 @@ body {
     margin-right: 10px;
 }
 
+.language-menu {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.language-menu-item {
+    list-style-type: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
 .changeTextColor {
     color: rgb(234, 111, 22);
 }
