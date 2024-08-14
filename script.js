@@ -1,5 +1,5 @@
 
-const highlightElements = document.querySelectorAll(".table-list-item");
+const highlightElements = document.querySelectorAll(".tables-list-item");
 highlightElements[0].addEventListener("click", highlightBatteryElements);
 highlightElements[1].addEventListener("click", highlightBodyElements);
 highlightElements[2].addEventListener("click", highlightSeaElements);
