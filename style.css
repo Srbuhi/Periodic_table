@@ -733,3 +733,15 @@ body {
 .sea .veryLittleAmounts {
     background-color: rgb(192 216 236);
 }
+
+.endangered .limited-availability {
+    background-color: rgb(222, 166, 36);
+}
+
+.endangered .rising-threat {
+    background-color: rgb(224, 126, 45);
+}
+
+.endangered .serious-threat {
+    background-color: rgb(171, 50, 29);
+}
