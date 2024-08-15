@@ -746,3 +746,31 @@ body {
 .endangered .serious-threat {
     background-color: rgb(171, 50, 29);
 }
+
+.crust .abundant {
+    background-color: rgb(98, 159, 78);
+}
+
+.crust .plentiful {
+    background-color: rgb(170, 206, 85);
+}
+
+.crust .common {
+    background-color: rgb(215, 139, 59) ;
+}
+
+.crust .moderate {
+    background-color: rgb(189, 96, 30);
+}
+
+.crust .scarce {
+    background-color: rgb(227, 75, 58);
+}
+
+.crust .rare {
+    background-color: rgb(161, 42, 42);
+}
+
+.crust .small {
+    background-color: rgb(96, 39, 31);
+}
