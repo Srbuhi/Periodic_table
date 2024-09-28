@@ -775,8 +775,35 @@ body {
     background-color: rgb(96, 39, 31);
 }
 
-.price-area {
+.price .price-area {
     width: 100%;
-    height: 15px;
+    height: 16px;
     background-color: brown;
+    border-radius: 2px;
+}
+
+.price .element {
+    height: 60px;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.price .price-area.low {
+    background-color: rgb(209, 156, 65);
+}
+
+.price .price-area.average {
+    background-color: rgb(193, 126, 55);
+}
+
+.price .price-area.high {
+    background-color: rgb(216, 102, 9);
+}
+
+.price .price-area.expensive {
+    background-color: rgb(164, 51, 23);
+}
+
+.price .price-area.exorbitant {
+    background-color: rgb(49, 15, 15);
 }
