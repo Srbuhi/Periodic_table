@@ -22,6 +22,14 @@ body {
     margin-right: 10px;
 }
 
+.icon-meaning {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 100%;
+}
+
 .language-menu {
     display: flex;
     justify-content: end;

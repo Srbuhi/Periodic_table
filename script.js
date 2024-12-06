@@ -7,6 +7,18 @@ highlightElements[3].addEventListener("click", highlightEndangeredElements);
 highlightElements[4].addEventListener("click", highlightCrustElements);
 highlightElements[5].addEventListener("click", highlightPriceOfElements);
 
+const iconMeaning = document.querySelectorAll(".icon-meaning");
+highlightElements.forEach((icon, index) => icon.addEventListener("mouseenter", showHint));
+highlightElements.forEach((icon, index) => icon.addEventListener("mouseleave", hideHint));
+
+function showHint() {
+    iconMeaning[1].style.display = "block";
+}
+
+function hideHint() {
+    iconMeaning[1].style.display = "none";
+}
+
 function highlightBatteryElements() {
     const body = document.querySelector("body");
     body.classList.remove("main", "human-body", "sea", "endangered", "crust", "price");
