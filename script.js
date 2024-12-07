@@ -1,3 +1,4 @@
+import hints from './content.js';
 
 const highlightElements = document.querySelectorAll(".tables-list-item");
 highlightElements[0].addEventListener("click", highlightBatteryElements);
@@ -6,15 +7,6 @@ highlightElements[2].addEventListener("click", highlightSeaElements);
 highlightElements[3].addEventListener("click", highlightEndangeredElements);
 highlightElements[4].addEventListener("click", highlightCrustElements);
 highlightElements[5].addEventListener("click", highlightPriceOfElements);
-
-const hints = {
-    "battery"    : "Elements in batteries",
-    "human-body" : "Elements in human body",
-    "sea"        : "Elements in sea",
-    "warning"    : "Endangered elements",
-    "earth-crust": "Elements is Earth's crust",
-    "price"      : "Elements prices"
-}
 
 const iconMeaning = document.querySelector(".icon-meaning");
 highlightElements.forEach(icon => {
